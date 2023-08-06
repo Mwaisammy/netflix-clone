@@ -20,7 +20,7 @@ function Banner() {
       fetchData();
   },[])
 
-  console.log(movie)
+  // console.log(movie)
 
 
   function trancate(string, n){
@@ -47,12 +47,7 @@ function Banner() {
                 <button className='banner__button'>My List</button>
 
              </div>
-             <h1 className="banner__description">{trancate(`This is a test descriptionhis is a test
-              descriptionhis is a test descriptionhis is a test descriptionhis is
-               a test descriptionhis is a test descriptionhis is a test descriptionhis is a
-                test descriptionhis is a test descriptionhis is a test descriptionhis is a test descriptionhis is a
-                 test descriptionhis is a test descriptionhis is a test descriptionhis is a test descriptionhis is a 
-                 test descriptionhis is a test descriptionhis is a test descriptionhis is a test description`, 150)}</h1>
+             <h1 className="banner__description">{trancate(movie?.overview, 150)}</h1>
              </div> 
              <div className="banner--fadeBottom"/>
              

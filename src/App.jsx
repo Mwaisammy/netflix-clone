@@ -5,11 +5,11 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       {/* <h1>Let's build netflix</h1> */}
       <HomeScreen/>
     </div>
   )
 }
 
-export default App
+export default App;
