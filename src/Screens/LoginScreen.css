@@ -1,0 +1,108 @@
+.loginScreen{
+    position: relative;
+    height: 100;
+    background: url(https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg
+
+    )
+    center no-repeat;
+    background-size: cover;
+
+}
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    background-image:
+    linear-gradient(
+        to top,
+        rgba(0,0, 0, 0.3) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.3) 100%
+
+
+    )
+    ;
+}
+.loginScreen__button {
+    position: fixed ;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none   ;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.loginScreen__body {
+   
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+    right: 15%;
+   z-index: 1;
+   color: #fff; 
+   padding: 20px;
+
+}
+
+
+.loginScreen__body h1 {
+   font-family: Arial, Helvetica, sans-serif ;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen__input form input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+
+}
+.loginScreen__input{
+    margin: 20px;
+}
+
+
+.loginScreen__getStarted{
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* link:(https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg) */

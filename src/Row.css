@@ -2,6 +2,7 @@
     color: white;
     margin-left: 20px;
     font-size: medium; 
+    padding-bottom: 25px;
 
 }
 
@@ -10,6 +11,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    cursor: pointer;
 }
 
 .row__poster {
@@ -22,7 +24,7 @@
 }
 
 .row__poster:hover{
-    transform: scale(1.19);
+    transform: scale(1.15);
     opacity: 1;
 }
 .row__posters::-webkit-scrollbar{
