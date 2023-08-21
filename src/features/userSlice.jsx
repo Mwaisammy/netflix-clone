@@ -1,4 +1,4 @@
-import React from 'react'
+import { createSlice } from "@reduxjs/toolkit";
 
 export const userSlice = createSlice({
 
@@ -24,5 +24,5 @@ export const { login, logout } = userSlice.actions;
 
 export const selectUser = state => state.user.user;
 
-export default counterSlicr.reducer;
+export default userSlice.reducer;
  
